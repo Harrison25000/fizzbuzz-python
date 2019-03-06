@@ -1,15 +1,15 @@
 class Bob:
     def fizzbuzz(self, number):
         if (number % 15 == 0):
-            print('FizzBuzz')
+            return('FizzBuzz')
         elif (number % 5 == 0):
-            print('Buzz')
+            return('Buzz')
         elif (number % 3 == 0):
-            print('Fizz')
+            return('Fizz')
         else:
-            print(number)
+            return(number)
 
 bob = Bob()
-bob.fizzbuzz(30)
+bob.fizzbuzz(3)
 
 print("Hello, World!")
